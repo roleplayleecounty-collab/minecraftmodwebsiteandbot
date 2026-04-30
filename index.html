@@ -1,0 +1,142 @@
+<!-- ===============================
+FULL LICENSE PANEL (index.html)
+Frontend Only (connects to your API)
+=============================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>License Panel</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0a0a;
+    color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #4cafef;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background: #3a9bdc;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin: 5px;
+    width: 70%;
+}
+
+pre {
+    background: black;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>🚀 License Control Panel</h1>
+
+<div class="card">
+<h2>Generate License</h2>
+<button onclick="generate('krypton')">Generate Krypton</button>
+<button onclick="generate('nova')">Generate Nova</button>
+</div>
+
+<div class="card">
+<h2>Redeem License</h2>
+<input id="code" placeholder="Enter license code" />
+<button onclick="redeem()">Redeem</button>
+</div>
+
+<div class="card">
+<h2>All Licenses</h2>
+<button onclick="loadLicenses()">Refresh List</button>
+<pre id="licenses"></pre>
+</div>
+
+<div class="card">
+<h2>Output</h2>
+<pre id="output"></pre>
+</div>
+
+</div>
+
+<script>
+const API = 'http://localhost:3000/api';
+
+async function generate(type) {
+    const res = await fetch(`${API}/generate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type })
+    });
+
+    const data = await res.json();
+    document.getElementById('output').innerText = JSON.stringify(data, null, 2);
+}
+
+async function redeem() {
+    const code = document.getElementById('code').value;
+
+    const res = await fetch(`${API}/redeem`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code })
+    });
+
+    const data = await res.json();
+    document.getElementById('output').innerText = JSON.stringify(data, null, 2);
+}
+
+async function loadLicenses() {
+    const res = await fetch(`${API}/licenses`);
+    const data = await res.json();
+
+    let text = '';
+    for (const code in data) {
+        const l = data[code];
+        text += `${code} | ${l.type} | Used: ${l.used}\n`;
+    }
+
+    document.getElementById('licenses').innerText = text || 'No licenses found';
+}
+</script>
+
+</body>
+</html>

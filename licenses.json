@@ -1,0 +1,714 @@
+{
+  "licenses": {
+    "KRYPTON-55f04888-7397": {
+      "userId": "937095746971398166",
+      "type": "krypton",
+      "used": false,
+      "revoked": false,
+      "createdAt": 1776998942000,
+      "history": [
+        "KRYPTON-9e0f077b-2854",
+        "KRYPTON-b4456e2b-5235"
+      ]
+    },
+    "NOVA-6d8eacc5-833": {
+      "userId": "937095746971398166",
+      "type": "nova",
+      "used": false,
+      "revoked": false,
+      "createdAt": 1776999090965,
+      "history": [
+        "NOVA-d4fd6909-6604"
+      ]
+    },
+    "KRYPTON-ffe3e442-5679": {
+      "userId": "937095746971398166",
+      "type": "krypton",
+      "used": false,
+      "revoked": false,
+      "createdAt": 1776999213437,
+      "history": []
+    },
+    "KRYPTON-e1d92c51": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": true,
+      "createdAt": 1777032447254
+    },
+    "KRYPTON-9b79fd96": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777066864672
+    },
+    "KRYPTON-6a1863f4": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": true,
+      "createdAt": 1777066945595
+    },
+    "KRYPTON-2636638a": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": true,
+      "createdAt": 1777069086827
+    },
+    "KRYPTON-03e7df9a": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": true,
+      "createdAt": 1777069454053
+    },
+    "PARAGON-cd577e6b": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": true,
+      "createdAt": 1777072696570
+    },
+    "KRYPTON-0a382ab0": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777074303817
+    },
+    "KRYPTON-43b31b8a": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777074347615
+    },
+    "NOVA-719bb213": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777074380117
+    },
+    "PARAGON-3b26f96d": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777074405271
+    },
+    "KRYPTON-f89a5936": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777079788991
+    },
+    "KRYPTON-b15f9727": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777079845537
+    },
+    "KRYPTON-388dfad9": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777079848098
+    },
+    "KRYPTON-06355280": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": true,
+      "createdAt": 1777079850086
+    },
+    "KRYPTON-3e375640": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080503055
+    },
+    "KRYPTON-bfc44518": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080504579
+    },
+    "KRYPTON-19377e48": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080506502
+    },
+    "KRYPTON-d24c6a54": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080509189
+    },
+    "KRYPTON-9e72ebe0": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080511645
+    },
+    "KRYPTON-e3e5e759": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080514000
+    },
+    "KRYPTON-ee6de4db": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080517890
+    },
+    "KRYPTON-8d0f0125": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080518511
+    },
+    "KRYPTON-ca4d4908": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080521373
+    },
+    "KRYPTON-f47f483c": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080523667
+    },
+    "KRYPTON-4fd7e641": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080526310
+    },
+    "KRYPTON-59d54a0c": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080529379
+    },
+    "KRYPTON-afcf7a39": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080531104
+    },
+    "KRYPTON-e02215af": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080534243
+    },
+    "KRYPTON-907e87a8": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080536945
+    },
+    "KRYPTON-cedbd88e": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080538581
+    },
+    "KRYPTON-e71df6a1": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080541238
+    },
+    "KRYPTON-05b35b73": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080543800
+    },
+    "KRYPTON-ed1e6d4f": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080546466
+    },
+    "KRYPTON-f613e13d": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080549023
+    },
+    "KRYPTON-a872b914": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080551786
+    },
+    "KRYPTON-376a9b90": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080553426
+    },
+    "KRYPTON-e036c572": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080556291
+    },
+    "KRYPTON-1bebf0da": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080558709
+    },
+    "KRYPTON-e7293b70": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777080561214
+    },
+    "PARAGON-dba0dd8e": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121066949
+    },
+    "PARAGON-fd71bce3": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121067889
+    },
+    "PARAGON-8137c964": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121069235
+    },
+    "PARAGON-35717de8": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121071752
+    },
+    "PARAGON-4fc88487": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121075161
+    },
+    "PARAGON-6ab4b91b": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121077335
+    },
+    "PARAGON-7140bde5": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121079111
+    },
+    "PARAGON-f511f236": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121081469
+    },
+    "PARAGON-6e8747ca": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121084073
+    },
+    "PARAGON-1ab835b4": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121086392
+    },
+    "PARAGON-3e89ea05": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121088901
+    },
+    "PARAGON-d169cbfc": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121091719
+    },
+    "PARAGON-41bca2f1": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121094427
+    },
+    "PARAGON-dc534b4e": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121097006
+    },
+    "PARAGON-eb67cde3": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121099732
+    },
+    "PARAGON-2fb6ffe8": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": true,
+      "createdAt": 1777121101636
+    },
+    "PARAGON-7e9e99fa": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121103721
+    },
+    "PARAGON-4929e1df": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121106330
+    },
+    "PARAGON-f140e984": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121108954
+    },
+    "PARAGON-1e866a86": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121111506
+    },
+    "PARAGON-142ebd60": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121113926
+    },
+    "PARAGON-47c9a907": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121116140
+    },
+    "PARAGON-9613e605": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121118789
+    },
+    "PARAGON-c04f5488": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121121141
+    },
+    "PARAGON-7ccf2318": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121123856
+    },
+    "PARAGON-06b34345": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121126175
+    },
+    "PARAGON-270cb6ce": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": false,
+      "createdAt": 1777121128852
+    },
+    "NOVA-e6030458": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127626619
+    },
+    "NOVA-bf5d0cb0": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127630395
+    },
+    "NOVA-65471dc6": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127630887
+    },
+    "NOVA-685851b8": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127633233
+    },
+    "NOVA-19edc695": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127636073
+    },
+    "NOVA-df65ad40": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127638424
+    },
+    "NOVA-f4c119eb": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127639890
+    },
+    "NOVA-a707bd15": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127644436
+    },
+    "NOVA-608bdbfb": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127644900
+    },
+    "NOVA-af305b91": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127647425
+    },
+    "NOVA-66d9d874": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127650022
+    },
+    "NOVA-39ba516e": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127652287
+    },
+    "NOVA-66174b4b": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127654824
+    },
+    "NOVA-881f8463": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127657267
+    },
+    "NOVA-fc424bc5": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127659814
+    },
+    "NOVA-1de27093": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127662373
+    },
+    "NOVA-d56867a7": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127664966
+    },
+    "NOVA-c25696ed": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127667548
+    },
+    "NOVA-5066b9bf": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127670996
+    },
+    "NOVA-413a4233": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127672666
+    },
+    "NOVA-2e41a261": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127674915
+    },
+    "NOVA-5419882e": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127678017
+    },
+    "NOVA-7d7c0293": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127680559
+    },
+    "NOVA-d6cfa009": {
+      "userId": "staff",
+      "type": "nova",
+      "used": false,
+      "createdAt": 1777127683149
+    },
+    "NOVA-189524d5": {
+      "userId": "staff",
+      "type": "nova",
+      "used": true,
+      "createdAt": 1777127878906
+    },
+    "KRYPTON-7a998b74": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": true,
+      "createdAt": 1777127909286
+    },
+    "NOVA-78990806": {
+      "userId": "staff",
+      "type": "nova",
+      "used": true,
+      "createdAt": 1777154472112
+    },
+    "NOVA-0f8bab81": {
+      "userId": "staff",
+      "type": "nova",
+      "used": true,
+      "createdAt": 1777228412885
+    },
+    "PARAGON-b14df363": {
+      "userId": "staff",
+      "type": "paragon",
+      "used": true,
+      "createdAt": 1777228441258
+    },
+    "KRYPTON-33148db5": {
+      "userId": "staff",
+      "type": "krypton",
+      "used": false,
+      "createdAt": 1777517005648
+    }
+  },
+  "users": {
+    "937095746971398166": [
+      "KRYPTON-55f04888-7397",
+      "NOVA-6d8eacc5-833",
+      "KRYPTON-ffe3e442-5679"
+    ],
+    "staff": [
+      "KRYPTON-e1d92c51",
+      "KRYPTON-9b79fd96",
+      "KRYPTON-6a1863f4",
+      "KRYPTON-2636638a",
+      "KRYPTON-03e7df9a",
+      "PARAGON-cd577e6b",
+      "KRYPTON-0a382ab0",
+      "KRYPTON-43b31b8a",
+      "NOVA-719bb213",
+      "PARAGON-3b26f96d",
+      "KRYPTON-f89a5936",
+      "KRYPTON-b15f9727",
+      "KRYPTON-388dfad9",
+      "KRYPTON-06355280",
+      "KRYPTON-3e375640",
+      "KRYPTON-bfc44518",
+      "KRYPTON-19377e48",
+      "KRYPTON-d24c6a54",
+      "KRYPTON-9e72ebe0",
+      "KRYPTON-e3e5e759",
+      "KRYPTON-ee6de4db",
+      "KRYPTON-8d0f0125",
+      "KRYPTON-ca4d4908",
+      "KRYPTON-f47f483c",
+      "KRYPTON-4fd7e641",
+      "KRYPTON-59d54a0c",
+      "KRYPTON-afcf7a39",
+      "KRYPTON-e02215af",
+      "KRYPTON-907e87a8",
+      "KRYPTON-cedbd88e",
+      "KRYPTON-e71df6a1",
+      "KRYPTON-05b35b73",
+      "KRYPTON-ed1e6d4f",
+      "KRYPTON-f613e13d",
+      "KRYPTON-a872b914",
+      "KRYPTON-376a9b90",
+      "KRYPTON-e036c572",
+      "KRYPTON-1bebf0da",
+      "KRYPTON-e7293b70",
+      "PARAGON-dba0dd8e",
+      "PARAGON-fd71bce3",
+      "PARAGON-8137c964",
+      "PARAGON-35717de8",
+      "PARAGON-4fc88487",
+      "PARAGON-6ab4b91b",
+      "PARAGON-7140bde5",
+      "PARAGON-f511f236",
+      "PARAGON-6e8747ca",
+      "PARAGON-1ab835b4",
+      "PARAGON-3e89ea05",
+      "PARAGON-d169cbfc",
+      "PARAGON-41bca2f1",
+      "PARAGON-dc534b4e",
+      "PARAGON-eb67cde3",
+      "PARAGON-2fb6ffe8",
+      "PARAGON-7e9e99fa",
+      "PARAGON-4929e1df",
+      "PARAGON-f140e984",
+      "PARAGON-1e866a86",
+      "PARAGON-142ebd60",
+      "PARAGON-47c9a907",
+      "PARAGON-9613e605",
+      "PARAGON-c04f5488",
+      "PARAGON-7ccf2318",
+      "PARAGON-06b34345",
+      "PARAGON-270cb6ce",
+      "NOVA-e6030458",
+      "NOVA-bf5d0cb0",
+      "NOVA-65471dc6",
+      "NOVA-685851b8",
+      "NOVA-19edc695",
+      "NOVA-df65ad40",
+      "NOVA-f4c119eb",
+      "NOVA-a707bd15",
+      "NOVA-608bdbfb",
+      "NOVA-af305b91",
+      "NOVA-66d9d874",
+      "NOVA-39ba516e",
+      "NOVA-66174b4b",
+      "NOVA-881f8463",
+      "NOVA-fc424bc5",
+      "NOVA-1de27093",
+      "NOVA-d56867a7",
+      "NOVA-c25696ed",
+      "NOVA-5066b9bf",
+      "NOVA-413a4233",
+      "NOVA-2e41a261",
+      "NOVA-5419882e",
+      "NOVA-7d7c0293",
+      "NOVA-d6cfa009",
+      "NOVA-189524d5",
+      "KRYPTON-7a998b74",
+      "NOVA-78990806",
+      "NOVA-0f8bab81",
+      "PARAGON-b14df363",
+      "KRYPTON-33148db5"
+    ]
+  }
+}
