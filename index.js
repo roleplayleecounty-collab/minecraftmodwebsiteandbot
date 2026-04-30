@@ -25,11 +25,9 @@ process.on('uncaughtException', console.log);
 
 
 
-
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+app.listen(PORT, () => console.log(`Web server running on ${PORT}`));
+
 
 // ================= CONFIG =================
 const TOKEN = 'MTQ5NzA2MDMxNzkwNDI0NDc5Ng.Gnk3tF.TygDsImY7W4374t8iEaUXZytpih1jBbwATY_EY';
