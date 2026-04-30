@@ -24,9 +24,19 @@ process.on('unhandledRejection', console.log);
 process.on('uncaughtException', console.log);
 
 
+const express = require("express");
+const app = express(); // ✅ DEFINE APP FIRST
+
+// Web server (required for Render web service)
+app.get("/", (req, res) => {
+  res.send("Bot is running");
+});
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Web server running on ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`Web server running on port ${PORT}`);
+});
+
 
 
 // ================= CONFIG =================
