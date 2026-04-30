@@ -23,6 +23,14 @@ const fs = require('fs');
 process.on('unhandledRejection', console.log);
 process.on('uncaughtException', console.log);
 
+
+
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
 // ================= CONFIG =================
 const TOKEN = 'MTQ5NzA2MDMxNzkwNDI0NDc5Ng.Gnk3tF.TygDsImY7W4374t8iEaUXZytpih1jBbwATY_EY';
 const CLIENT_ID = '1497060317904244796';
