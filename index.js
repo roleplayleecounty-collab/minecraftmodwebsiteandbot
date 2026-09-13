@@ -40,17 +40,17 @@ app.listen(PORT, () => {
 
 
 // ================= CONFIG =================
-const TOKEN = 'MTQ5NzA2MDMxNzkwNDI0NDc5Ng.Gnk3tF.TygDsImY7W4374t8iEaUXZytpih1jBbwATY_EY';
-const CLIENT_ID = '1497060317904244796';
-const GUILD_ID = '1490057043015499886';
+const TOKEN = '#YourDiscordBotToken';
+const CLIENT_ID = '#DiscordBotToken';
+const GUILD_ID = '#DiscordBotToken';
 
-const STAFF_ROLES = ['1497371753952055387', '1491805824031522968'];
-const LOG_CHANNEL_ID = '1497372864842563715';
+const STAFF_ROLES = ['DiscordStaffRoleID', 'DiscordStaffRoleID'];
+const LOG_CHANNEL_ID = 'LoGcHANNELID';
 
-const ROLE_KRYPTON = '1497381762865561682';
-const ROLE_NOVA = '1497381865277886605';
-const ROLE_PARAGON = '1497382032244736200';
-const BOTDEV_ID = '937095746971398166';
+const ROLE_KRYPTON = 'KryptonRoleBuyer';
+const ROLE_NOVA = 'NovaRoleBuyer';
+const ROLE_PARAGON = 'ParagonRoleBuyer';
+const BOTDEV_ID = 'BOTDEVELOPERUSERID';
 
 const DB_FILE = './licenses.json';
 
